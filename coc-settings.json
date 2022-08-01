@@ -1,21 +1,21 @@
 {"suggest.echodocSupport": true,
-	"python.pythonPath": "/usr/bin/python",
-	"languageserver": {
-		"ccls": {
-			"command": "ccls",
-			"filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
-			"rootPatterns": [".ccls-root", "compile_commands.json"],
-			"initializationOptions": {
-				"cache": {
-					"directory": ".ccls-cache"
-				},
-				"client": {
-					"snippetSupport": true
-				}
-			}
-		}
-	},
-	"yaml.schemas": {
-	   "https://spec.openapis.org/oas/3.0/schema/2021-09-28": ["/home/asartamonov/Projects/cms-backend/cms-open-api/src/main/resources/api/v1.yaml"]
-	}
+  "python.pythonPath": "/usr/bin/python",
+  "languageserver": {
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
+      "rootPatterns": [".ccls-root", "compile_commands.json"],
+      "initializationOptions": {
+        "cache": {
+          "directory": ".ccls-cache"
+        },
+        "client": {
+          "snippetSupport": true
+        }
+      }
+    }
+  },
+  "yaml.schemas": {
+    "https://spec.openapis.org/oas/3.0/schema/2021-09-28": ["/home/asartamonov/Projects/cms-backend/cms-open-api/src/main/resources/api/v1.yaml"]
+  }
 }

@@ -11,7 +11,7 @@ return require('packer').startup(function(use)
   use 'sainnhe/sonokai'
   use 'sheerun/vim-polyglot'
   use 'preservim/NERDTree'
-	use {'neoclide/coc.nvim', branch = 'release'}
+  use {'neoclide/coc.nvim', branch = 'release'}
   use {
     'nvim-telescope/telescope.nvim',
     requires = {{'nvim-lua/plenary.nvim'}}
